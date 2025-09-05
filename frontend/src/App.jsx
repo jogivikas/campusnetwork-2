@@ -1,15 +1,12 @@
+import React from "react";
+import Dashboard from "./pages/Dashboard";
+import Navbar from "./components/Navbar";
 
-import './App.css'
-
-function App() {
-
+export default function App(){
   return (
-    <>
-    <div>
-      hi
+    <div className="min-h-screen p-6">
+      
+      <Dashboard />
     </div>
-    </>
-  )
+  );
 }
-
-export default App
